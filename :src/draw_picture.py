@@ -50,7 +50,7 @@ def past_picture(past_dates_format):
     plt.plot(past_dates_format, data2, label='high_temperature_api')
     plt.plot(past_dates_format, data3, label='low_temperature_url')
     plt.plot(past_dates_format, data4, label='low_temperature_api')
-    plt.title('the difference of future temperature between url and api')
+    plt.title('the difference of past temperature between url and api')
     plt.xlabel('date')
     plt.ylabel('temperature')
     plt.legend()
